@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'template-form';
+  
+  form ={
+    fname:'',
+    lname:'',
+    age:'',
+    email:'',
+    contact:'',
+    password:''
+  }
+
+  integerRegex = /^\d+$/;
+  emailRegex =/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  registrationValue(){
+    console.log(this.form)
+  }
 }

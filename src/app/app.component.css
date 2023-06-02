@@ -1,0 +1,15 @@
+.container{
+    border: 1px solid salmon;
+    padding: 15px;
+}
+.container h1{
+    text-align: center;
+}
+.btn{
+    margin-left: 26em;
+    font-size: 18px;
+    width: 150px;
+}
+.error{
+    border: 1px solid red;
+}
